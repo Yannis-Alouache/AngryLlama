@@ -1,0 +1,28 @@
+* {
+    font-family: Kanit, sans-serif;
+    color: white;
+}
+
+.bg {
+    background-image: url(../Images/bg3.png);
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: -1;
+    filter: brightness(100%)
+}
+
+
+.relative {
+    position: relative;
+}
+
+.section {
+    background-color: black;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
