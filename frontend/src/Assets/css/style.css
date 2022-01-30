@@ -26,3 +26,25 @@
     padding-top: 50px;
     padding-bottom: 50px;
 }
+
+
+.header {
+    padding-top: 40px
+}
+
+.title {
+    font-size: 25px;
+    font-weight: 100
+}
+
+.w-10 {
+    width: 10%;
+}
+
+.rounded-max {
+    border-radius: 100%;
+}
+
+.team-card-bg {
+    background-color: rgba(10, 10, 10, 0.637);
+}
