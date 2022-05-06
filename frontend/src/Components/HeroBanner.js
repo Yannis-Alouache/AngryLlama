@@ -19,13 +19,11 @@ function HeroBanner() {
                         <p className="font-weight-bold">Lorem Ipsum is Lorem Ipsum, Lorem Ipsum and Lorem Ipsum</p>
 
                         <Button variant="primary" style={{marginRight: "25px"}}>Take a ride</Button>
-                        <Button variant="secondary">View on OpenSea</Button>
                     </Col>
                     <Col className="d-flex justify-content-center">
                         <Image
                             src={heroImage}
-                            width="700px"
-                            height="700px"
+                            fluid={true}
                         />
                     </Col>
                 </Row>

@@ -1,6 +1,11 @@
 * {
-    font-family: Kanit, sans-serif;
+    font-family: 'MyFont';
     color: white;
+}
+
+@font-face {
+    font-family: 'MyFont';
+    src: local('MyFont'), url(../font/Bubblegum.ttf) format('truetype');
 }
 
 .bg {
@@ -16,7 +21,6 @@
     filter: brightness(100%)
 }
 
-
 .relative {
     position: relative;
 }
@@ -26,7 +30,6 @@
     padding-top: 50px;
     padding-bottom: 50px;
 }
-
 
 .header {
     padding-top: 40px
@@ -47,4 +50,91 @@
 
 .team-card-bg {
     background-color: rgba(10, 10, 10, 0.637);
+}
+
+.test {
+    margin: 0 auto;
+}
+/* -- quantity box -- */
+
+.quantity {
+    display: block;}
+   
+   .quantity .input-text.qty {
+    width: 100px;
+    height: 39px;
+    padding: 0 5px;
+    text-align: center;
+    background-color: white;
+    border: 2px solid #ee9df9;;
+    color: black;
+    border-radius: 12px;
+
+   }
+   
+   .quantity.buttons_added {
+    text-align: center;
+    position: relative;
+    white-space: nowrap;
+    vertical-align: top; }
+   
+   .quantity.buttons_added input {
+    display: inline-block;
+    margin: 0;
+    vertical-align: top;
+   }
+   
+   .quantity.buttons_added .minus,
+   .quantity.buttons_added .plus {
+        padding: 7px 10px 8px;
+        height: 41px;
+        width: 50px;
+        background-color: #ee9df9;;
+        cursor:pointer;
+        margin-left: 10px;
+        margin-right: 10px;
+        border-radius: 30px;
+    }
+   
+   .quantity.buttons_added .minus {
+    border-right: 0; }
+   
+   .quantity.buttons_added .plus {
+    border-left: 0; }
+   
+   .quantity input::-webkit-outer-spin-button,
+   .quantity input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    margin: 0; }
+    
+    .quantity.buttons_added .minus:focus,
+   .quantity.buttons_added .plus:focus {
+    outline: none; }
+
+.myButton {
+    -webkit-box-shadow: 1px 2px 0px 1px rgb(255, 255, 255); 
+    box-shadow: 1px 2px 0px 1px #f4c9fa;;
+	background-color:#ee9df9;
+	border-radius:6px;
+	border:1px solid #ee9df9;
+	display:inline-block;
+	cursor:pointer;
+	font-size:15px;
+    font-weight: 100;
+	padding:6px 24px;
+	text-decoration:none;
+}
+
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.mintBtn {
+    border: 1px transparent;
+}
+
+.text-centery {
+    vertical-align: middle;
 }
