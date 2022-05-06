@@ -16,7 +16,7 @@ function HeroBanner() {
                 <Row>
                     <Col className="text-center my-auto" style={{color: "white"}}>
                         <h1 className="font-weight-bold">Collect your favourite Llama</h1>
-                        <p className="font-weight-bold">Lorem Ipsum is Lorem Ipsum, Lorem Ipsum and Lorem Ipsum</p>
+                        <p className="font-weight-bold">AngryLlama is a free to mint nft collection for everyone !</p>
 
                         <Button variant="primary" style={{marginRight: "25px"}}>Take a ride</Button>
                     </Col>
